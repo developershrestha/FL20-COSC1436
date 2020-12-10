@@ -22,6 +22,7 @@ string semester = "Fall 2020";
 void showMenu();
 void menu24Smiley(int);
 void menu21Tourkakis();
+void menu15Shrestha();
 
 // ***************************************************************
 // END OF FUNCTION PROTOTYPE AREA
@@ -83,6 +84,7 @@ int main()
             case 14:                 // Price - call to function goes here
                 break;
             case 15:                 // Shrestha - call to function goes here
+                menu15Shrestha();
                 break;
             case 16:                 // Smith - call to function goes here
                 break;
@@ -165,12 +167,11 @@ void showMenu()
 //                     where XX is your menu number and
 //                           YY is your last name with no spaces (camel case)           
 // *****************************************************************************************
-
-void menu21Tourkakis()
-{
-    cout << "Hello World" << endl;
+void menu15Shrestha()
+    {cout << "Congratulation! you pass this class." << endl;
     cout << endl;
-}
+    }
+
 // *****************************************************************************************
 // MENU ID:          24
 // FUNCTION:         menu24Smiley
@@ -179,6 +180,12 @@ void menu21Tourkakis()
 //                   Program outputs the following:
 //                      Fibonacci Sequence (9 iterations): 0, 1, 1, 2, 3, 5, 8, 13, 21
 // *****************************************************************************************
+void menu21Tourkakis()
+{
+    cout << "Hello World" << endl;
+    cout << endl;
+}
+
 void menu24Smiley(int numberOfTimes)
 {
     int current = 0;
